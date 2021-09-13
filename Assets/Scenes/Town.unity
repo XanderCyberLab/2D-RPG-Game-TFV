@@ -215,7 +215,6 @@ GameObject:
   m_Component:
   - component: {fileID: 415469066}
   - component: {fileID: 415469065}
-  - component: {fileID: 415469064}
   m_Layer: 0
   m_Name: Stand Colliders (3)
   m_TagString: Untagged
@@ -223,27 +222,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &415469064
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 415469063}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &415469065
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -594,6 +572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658710f7b0d792744b95e6a4a8779b2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadingScene: 
 --- !u!1 &1065124147
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,7 +583,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1065124150}
   - component: {fileID: 1065124149}
-  - component: {fileID: 1065124148}
   m_Layer: 0
   m_Name: Stand Colliders (2)
   m_TagString: Untagged
@@ -612,27 +590,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &1065124148
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1065124147}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &1065124149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -682,7 +639,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1495541663}
-  - component: {fileID: 1495541662}
   - component: {fileID: 1495541661}
   m_Layer: 0
   m_Name: Plant Collider
@@ -717,27 +673,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.146478, y: 0.3695922}
   m_EdgeRadius: 0
---- !u!50 &1495541662
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1495541660}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!4 &1495541663
 Transform:
   m_ObjectHideFlags: 0
@@ -762,7 +697,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1709709584}
   - component: {fileID: 1709709583}
-  - component: {fileID: 1709709582}
   m_Layer: 0
   m_Name: Stand Colliders
   m_TagString: Untagged
@@ -770,27 +704,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &1709709582
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709709581}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &1709709583
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -877,7 +790,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1853650601}
   - component: {fileID: 1853650600}
-  - component: {fileID: 1853650599}
   m_Layer: 0
   m_Name: Stand Colliders (1)
   m_TagString: Untagged
@@ -885,27 +797,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &1853650599
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853650598}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &1853650600
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -956,7 +847,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1979552788}
   - component: {fileID: 1979552787}
-  - component: {fileID: 1979552786}
   m_Layer: 0
   m_Name: Water Collider
   m_TagString: Untagged
@@ -964,27 +854,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &1979552786
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979552785}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &1979552787
 BoxCollider2D:
   m_ObjectHideFlags: 0
