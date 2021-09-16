@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AreaExit : MonoBehaviour
+public class TownEntrance : MonoBehaviour
 {
-    [SerializeField] string loadingScene;
-    [SerializeField] string transformAreaPos;
+    [SerializeField] string loadingscene;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,9 +21,7 @@ public class AreaExit : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Player.instance.transformPosition = transformAreaPos;
-            SceneManager.LoadScene(loadingScene);
-     
+            SceneManager.LoadScene(loadingscene);
         }
     }
 }
