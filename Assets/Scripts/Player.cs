@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] Rigidbody2D playerRigidBody; //SerializedField shows on the inspector but can't be access by other classes
     [SerializeField] float moveSpeed = 1;
     [SerializeField] Animator playerAnimator;
-    public string transformPosition;
+    public string transitionName;
 
 
     // Start is called before the first frame update

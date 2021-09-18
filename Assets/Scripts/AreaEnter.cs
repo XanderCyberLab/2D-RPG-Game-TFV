@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class AreaEnter : MonoBehaviour
 {
-    [SerializeField] string transformAreaName;
+    public string transitionAreaName;
     // Start is called before the first frame update
     void Start()
     {
-        if (transformAreaName == Player.instance.transformPosition)
+        if (transitionAreaName == Player.instance.transitionName) // Checks for player transition name to match the area.
         {
-            Player.instance.transform.position = transform.position;
-        }
-
-               
+            Player.instance.transform.position = transform.position; // If match then player transform position is areaEnter position
+        }               
     }   
 
     // Update is called once per frame
